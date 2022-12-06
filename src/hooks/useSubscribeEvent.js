@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { customEvent } from 'custom-event-with-subscribers';
+import customEvent from 'custom-event-with-subscribers';
 
 export const useSubscribeEvent = (eventName, defaultState = {}) => {
     const isMount = useRef(null);
