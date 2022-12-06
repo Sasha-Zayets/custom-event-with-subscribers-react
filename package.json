@@ -1,7 +1,7 @@
 {
   "name": "custom-event-with-subscribers-react",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "main": "dist/index.js",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
