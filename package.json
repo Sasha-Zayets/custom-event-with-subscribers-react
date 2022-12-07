@@ -12,6 +12,10 @@
   "scripts": {
     "build": "babel src/ --out-dir dist --copy-files"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sasha-Zayets/custom-event-with-subscribers-react.git"
+  },
   "eslintConfig": {
     "extends": [
       "react-app"
