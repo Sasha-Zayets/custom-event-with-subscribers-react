@@ -1,5 +1,5 @@
 /// <reference types="react" />
-export declare const useSubscribeEvent: (eventName: string, defaultState?: object) => {
-    state: object;
-    setState: import("react").Dispatch<import("react").SetStateAction<object>>;
+export declare const useSubscribeEvent: (eventName: string, defaultState?: any) => {
+    state: any;
+    setState: import("react").Dispatch<any>;
 };
